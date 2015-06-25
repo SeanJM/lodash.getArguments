@@ -2,7 +2,7 @@
   "name": "lodash-get-arguments",
   "title": "Lodash Get Arguments",
   "description": "A Lodash mixin which assigns arbitratry arguments to named keys in an object which correspond to named predicates in an object.",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "main": "src/lodash.getArguments.js",
   "author": {
     "name": "Sean James MacIsaac",
