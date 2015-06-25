@@ -1,0 +1,38 @@
+{
+  "name": "lodash-get-arguments",
+  "title": "Lodash Get Arguments",
+  "description": "A Lodash mixin which assigns arbitratry arguments to named keys in an object which correspond to named predicates in an object.",
+  "version": "0.5.0",
+  "main": "src/lodash.getArguments.js",
+  "author": {
+    "name": "Sean James MacIsaac",
+    "url": "https//www.seanjmacisaac.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SeanJM/lodash.getArguments.git"
+  },
+  "keywords": [
+    "lodash",
+    "lodash-mixin",
+    "ecosystem:lodash",
+    "javascript",
+    "mixin",
+    "plugin",
+    "arguments",
+    "arbitratry",
+    "out-of-order"
+  ],
+  "bugs": {
+    "url": "https://github.com/SeanJM/lodash.getArguments/issues"
+  },
+  "license": "GNU 3",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "^0.6.1"
+  },
+  "dependencies": {
+    "lodash": "^3.9.3"
+  }
+}
