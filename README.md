@@ -1,5 +1,5 @@
 # Lodash getArguments
-A Lodash mixin which assigns arbitraty arguments to named keys in an object which correspond to named predicates in an object.
+A Lodash mixin which assigns arbitrary arguments to named keys in an object which correspond to named predicates in an object.
 
 #### Usage
 
