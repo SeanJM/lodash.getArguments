@@ -2,7 +2,7 @@
 A mixin which takes arbitratry arguments in a function and assigns them to an object's named keys.
 
 #### Usage
-
+    ```javascript
     function myFunction() {
       a = _.getArguments(arguments, {
         name: function (b) {
@@ -18,8 +18,11 @@ A mixin which takes arbitratry arguments in a function and assigns them to an ob
     }
     myFunction(myCallback, 'Sean', document.querySelector('div'))
     // → { name: 'Sean', node: document.querySelector('div'), callback: myCallback }
+    ```
 
 #### Not all arguments supplied
 
+    ```javascript
     myFunction(myCallback, document.querySelector('div'))
     // → { name: false, node: document.querySelector('div'), callback: myCallback }
+    ```
