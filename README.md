@@ -5,7 +5,7 @@ Lodash mixin which assigns arbitrary arguments to named keys which correspond to
 
 ```javascript
 function myFunction() {
-  a = _.getArguments(arguments, {
+  var a = _.getArguments(arguments, {
     name: function (b) {
       return typeof b === 'string';
     },
