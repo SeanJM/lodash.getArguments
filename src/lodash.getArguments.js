@@ -33,17 +33,13 @@ _.mixin({
   getArguments: function (list, predicates) {
     var i,
         n,
-        b,
         k,
         o = {};
     list = Array.prototype.slice.call(list);
     for (i = 0, n = list.length; i < n; i++) {
       for (k in predicates) {
-        if (typeof predicates[k] === 'function') {
-          b = predicates[k](list[i], i, n);
-          if (b) {
-            o[k] = list[i];
-          }
+        if (typeof predicates[k] === 'function' && predicates[k](list[i], i, n)) {
+          o[k] = list[i];
         }
       }
     }
