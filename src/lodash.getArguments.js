@@ -40,12 +40,9 @@ _.mixin({
       for (k in predicates) {
         if (typeof predicates[k] === 'function' && predicates[k](list[i], i, n)) {
           o[k] = list[i];
+        } else if (typeof o[k] === 'undefined') {
+          o[k] = false;
         }
-      }
-    }
-    for (k in predicates) {
-      if (typeof o[k] === 'undefined') {
-        o[k] = false;
       }
     }
     return o;
